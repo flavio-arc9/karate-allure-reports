@@ -1,0 +1,339 @@
+22:41:00.445 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:41:00.975 [main] DEBUG com.intuit.karate - request:
+1 > POST https://jsonplaceholder.typicode.com/users
+1 > Accept: application/json
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 172
+1 > Host: jsonplaceholder.typicode.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.11)
+1 > Accept-Encoding: gzip,deflate
+{
+  "name": "Joe Doe",
+  "username": "Joe",
+  "email": "joe.doe@exmaple.com",
+  "address": {
+    "street": "Example",
+    "suite": "Apt. 123",
+    "city": "Lima"
+  },
+  "phone": "947387438",
+  "website": "google.com"
+}
+
+
+22:41:01.354 [main] DEBUG com.intuit.karate - response time in milliseconds: 375
+1 < 201
+1 < Date: Sat, 15 Jun 2024 03:41:01 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 230
+1 < Connection: keep-alive
+1 < Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1718422861&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=VsWd2okXIuYUvYBUccGrh5RQVcKWWVGM1DiCbPAXkCs%3D"}]}
+1 < Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1718422861&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=VsWd2okXIuYUvYBUccGrh5RQVcKWWVGM1DiCbPAXkCs%3D
+1 < Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+1 < X-Powered-By: Express
+1 < X-Ratelimit-Limit: 1000
+1 < X-Ratelimit-Remaining: 997
+1 < X-Ratelimit-Reset: 1718422864
+1 < Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+1 < Access-Control-Allow-Credentials: true
+1 < Cache-Control: no-cache
+1 < Pragma: no-cache
+1 < Expires: -1
+1 < Access-Control-Expose-Headers: Location
+1 < Location: https://jsonplaceholder.typicode.com/users/11
+1 < X-Content-Type-Options: nosniff
+1 < Etag: W/"e6-/lLcqSg0lk/7agsK43cPS9pm1uk"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Server: cloudflare
+1 < CF-RAY: 893f8ac29bdfb4e4-SCL
+1 < alt-svc: h3=":443"; ma=86400
+{
+  "name": "Joe Doe",
+  "username": "Joe",
+  "email": "joe.doe@exmaple.com",
+  "address": {
+    "street": "Example",
+    "suite": "Apt. 123",
+    "city": "Lima"
+  },
+  "phone": "947387438",
+  "website": "google.com",
+  "id": 11
+}
+
+
+22:41:01.635 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) classpath:resources/features/Example.feature
+22:41:08.668 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:41:08.671 [main] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1718422868670
+22:41:09.228 [main] DEBUG com.intuit.karate - request:
+1 > POST https://jsonplaceholder.typicode.com/users
+1 > Accept: application/json
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 172
+1 > Host: jsonplaceholder.typicode.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.11)
+1 > Accept-Encoding: gzip,deflate
+{
+  "name": "Joe Doe",
+  "username": "Joe",
+  "email": "joe.doe@exmaple.com",
+  "address": {
+    "street": "Example",
+    "suite": "Apt. 123",
+    "city": "Lima"
+  },
+  "phone": "947387438",
+  "website": "google.com"
+}
+
+
+22:41:09.604 [main] DEBUG com.intuit.karate - response time in milliseconds: 370
+1 < 201
+1 < Date: Sat, 15 Jun 2024 03:41:09 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 230
+1 < Connection: keep-alive
+1 < Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1718422869&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=4NsC3wP0Lnf%2B%2B6W%2Fc4vRp0Mp0S99oOgoBUSYENtADQY%3D"}]}
+1 < Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1718422869&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=4NsC3wP0Lnf%2B%2B6W%2Fc4vRp0Mp0S99oOgoBUSYENtADQY%3D
+1 < Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+1 < X-Powered-By: Express
+1 < X-Ratelimit-Limit: 1000
+1 < X-Ratelimit-Remaining: 999
+1 < X-Ratelimit-Reset: 1718422924
+1 < Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+1 < Access-Control-Allow-Credentials: true
+1 < Cache-Control: no-cache
+1 < Pragma: no-cache
+1 < Expires: -1
+1 < Access-Control-Expose-Headers: Location
+1 < Location: https://jsonplaceholder.typicode.com/users/11
+1 < X-Content-Type-Options: nosniff
+1 < Etag: W/"e6-/lLcqSg0lk/7agsK43cPS9pm1uk"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Server: cloudflare
+1 < CF-RAY: 893f8af62f06b508-SCL
+1 < alt-svc: h3=":443"; ma=86400
+{
+  "name": "Joe Doe",
+  "username": "Joe",
+  "email": "joe.doe@exmaple.com",
+  "address": {
+    "street": "Example",
+    "suite": "Apt. 123",
+    "city": "Lima"
+  },
+  "phone": "947387438",
+  "website": "google.com",
+  "id": 11
+}
+
+
+22:41:09.904 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) classpath:resources/features/Example.feature
+22:43:09.038 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:43:09.041 [main] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1718422989040
+22:43:09.569 [main] DEBUG com.intuit.karate - request:
+1 > POST https://jsonplaceholder.typicode.com/users
+1 > Accept: application/json
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 172
+1 > Host: jsonplaceholder.typicode.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.11)
+1 > Accept-Encoding: gzip,deflate
+{
+  "name": "Joe Doe",
+  "username": "Joe",
+  "email": "joe.doe@exmaple.com",
+  "address": {
+    "street": "Example",
+    "suite": "Apt. 123",
+    "city": "Lima"
+  },
+  "phone": "947387438",
+  "website": "google.com"
+}
+
+
+22:43:09.941 [main] DEBUG com.intuit.karate - response time in milliseconds: 366
+1 < 201
+1 < Date: Sat, 15 Jun 2024 03:43:09 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 230
+1 < Connection: keep-alive
+1 < Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1718422989&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=mdIZV3exlB3cU1GCQSabvTacsO1tQLRFARO9hm4tVm4%3D"}]}
+1 < Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1718422989&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=mdIZV3exlB3cU1GCQSabvTacsO1tQLRFARO9hm4tVm4%3D
+1 < Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+1 < X-Powered-By: Express
+1 < X-Ratelimit-Limit: 1000
+1 < X-Ratelimit-Remaining: 999
+1 < X-Ratelimit-Reset: 1718423044
+1 < Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+1 < Access-Control-Allow-Credentials: true
+1 < Cache-Control: no-cache
+1 < Pragma: no-cache
+1 < Expires: -1
+1 < Access-Control-Expose-Headers: Location
+1 < Location: https://jsonplaceholder.typicode.com/users/11
+1 < X-Content-Type-Options: nosniff
+1 < Etag: W/"e6-/lLcqSg0lk/7agsK43cPS9pm1uk"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Server: cloudflare
+1 < CF-RAY: 893f8de64d08b531-SCL
+1 < alt-svc: h3=":443"; ma=86400
+{
+  "name": "Joe Doe",
+  "username": "Joe",
+  "email": "joe.doe@exmaple.com",
+  "address": {
+    "street": "Example",
+    "suite": "Apt. 123",
+    "city": "Lima"
+  },
+  "phone": "947387438",
+  "website": "google.com",
+  "id": 11
+}
+
+
+22:43:10.245 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) classpath:resources/features/Example.feature
+23:23:55.998 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+23:23:56.001 [main] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1718425436000
+23:23:56.642 [main] DEBUG com.intuit.karate - request:
+1 > POST https://jsonplaceholder.typicode.com/users
+1 > Accept: application/json
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 172
+1 > Host: jsonplaceholder.typicode.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.11)
+1 > Accept-Encoding: gzip,deflate
+{
+  "name": "Joe Doe",
+  "username": "Joe",
+  "email": "joe.doe@exmaple.com",
+  "address": {
+    "street": "Example",
+    "suite": "Apt. 123",
+    "city": "Lima"
+  },
+  "phone": "947387438",
+  "website": "google.com"
+}
+
+
+23:23:58.190 [main] DEBUG com.intuit.karate - response time in milliseconds: 1542
+1 < 201
+1 < Date: Sat, 15 Jun 2024 04:23:57 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 230
+1 < Connection: keep-alive
+1 < Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1718425437&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=LN%2BE%2Ff1NPM18tsAmRoqJUkhzZy1KMLzJw5I0tLqnyKg%3D"}]}
+1 < Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1718425437&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=LN%2BE%2Ff1NPM18tsAmRoqJUkhzZy1KMLzJw5I0tLqnyKg%3D
+1 < Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+1 < X-Powered-By: Express
+1 < X-Ratelimit-Limit: 1000
+1 < X-Ratelimit-Remaining: 999
+1 < X-Ratelimit-Reset: 1718425444
+1 < Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+1 < Access-Control-Allow-Credentials: true
+1 < Cache-Control: no-cache
+1 < Pragma: no-cache
+1 < Expires: -1
+1 < Access-Control-Expose-Headers: Location
+1 < Location: https://jsonplaceholder.typicode.com/users/11
+1 < X-Content-Type-Options: nosniff
+1 < Etag: W/"e6-/lLcqSg0lk/7agsK43cPS9pm1uk"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Server: cloudflare
+1 < CF-RAY: 893fc9a558d50dde-SCL
+1 < alt-svc: h3=":443"; ma=86400
+{
+  "name": "Joe Doe",
+  "username": "Joe",
+  "email": "joe.doe@exmaple.com",
+  "address": {
+    "street": "Example",
+    "suite": "Apt. 123",
+    "city": "Lima"
+  },
+  "phone": "947387438",
+  "website": "google.com",
+  "id": 11
+}
+
+
+23:23:58.544 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) classpath:resources/features/Example.feature
+23:32:12.819 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+23:32:12.823 [main] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1718425932822
+23:32:13.496 [main] DEBUG com.intuit.karate - request:
+1 > POST https://jsonplaceholder.typicode.com/users
+1 > Accept: application/json
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 172
+1 > Host: jsonplaceholder.typicode.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.11)
+1 > Accept-Encoding: gzip,deflate
+{
+  "name": "Joe Doe",
+  "username": "Joe",
+  "email": "joe.doe@exmaple.com",
+  "address": {
+    "street": "Example",
+    "suite": "Apt. 123",
+    "city": "Lima"
+  },
+  "phone": "947387438",
+  "website": "google.com"
+}
+
+
+23:32:13.970 [main] DEBUG com.intuit.karate - response time in milliseconds: 470
+1 < 201
+1 < Date: Sat, 15 Jun 2024 04:32:14 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 230
+1 < Connection: keep-alive
+1 < Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1718425933&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=IO4qeAaOIj89qNQPGlDEG6ldjT1oMcL4WpHn1X1xCqM%3D"}]}
+1 < Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1718425933&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=IO4qeAaOIj89qNQPGlDEG6ldjT1oMcL4WpHn1X1xCqM%3D
+1 < Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+1 < X-Powered-By: Express
+1 < X-Ratelimit-Limit: 1000
+1 < X-Ratelimit-Remaining: 999
+1 < X-Ratelimit-Reset: 1718425984
+1 < Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+1 < Access-Control-Allow-Credentials: true
+1 < Cache-Control: no-cache
+1 < Pragma: no-cache
+1 < Expires: -1
+1 < Access-Control-Expose-Headers: Location
+1 < Location: https://jsonplaceholder.typicode.com/users/11
+1 < X-Content-Type-Options: nosniff
+1 < Etag: W/"e6-/lLcqSg0lk/7agsK43cPS9pm1uk"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Server: cloudflare
+1 < CF-RAY: 893fd5c6bfb8b4fb-SCL
+1 < alt-svc: h3=":443"; ma=86400
+{
+  "name": "Joe Doe",
+  "username": "Joe",
+  "email": "joe.doe@exmaple.com",
+  "address": {
+    "street": "Example",
+    "suite": "Apt. 123",
+    "city": "Lima"
+  },
+  "phone": "947387438",
+  "website": "google.com",
+  "id": 11
+}
+
+
+23:32:14.344 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) classpath:resources/features/Example.feature

@@ -1,0 +1,9 @@
+<testsuite failures="0" name="resources/features/Example.feature" skipped="0" tests="1" time="1.678334"><testcase classname="resources.features.Example" name="Register a new user" time="1.678334"><system-out>* url baseUrl ............................................................. passed
+* header Accept = Accept .................................................. passed
+* header Content-Type = ContentType ....................................... passed
+And path '/users/' ........................................................ passed
+And request ............................................................... passed
+When method POST .......................................................... passed
+Then status 201 ........................................................... passed
+</system-out></testcase>
+</testsuite>
